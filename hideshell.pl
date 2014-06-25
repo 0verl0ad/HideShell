@@ -74,8 +74,9 @@ close(FILEA);
 close(FILEB);
 
 sub help {
-
+print q(
   perl hideshell.pl webshell.php output.php
   
   REMEMBER: you have to delete initial <?php and final ?> in your webshell before use this tool
+  );
 }
